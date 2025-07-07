@@ -18,7 +18,6 @@ fadrimir
 ---
 # DESCRIPCION DEL PROYECTO:
 
----
 ## 
 
   -  ✔ Se está comprobando cómo la aplicación URBAN ROUTES funciona para pedir un taxi.
@@ -48,16 +47,20 @@ fadrimir
 ---
 
 ### Detalle de cada archivo:
+
 #### data.py
   - Se reemplaza la URL base con la URL de Urban Routes:
-      https://cnt-b1112777-ad5c-4e43-b438-d38ee15d86e6.containerhub.tripleten-services.com?lng=es
+    *  https://cnt-b1112777-ad5c-4e43-b438-d38ee15d86e6.containerhub.tripleten-services.com?lng=es
+
+      
   - Los datos que se van a usar en las pruebas son los siguiente:
-      address_from = ‘East 2nd Street, 601’
-      address_to = ‘1300 1st St’
-      phone_number = ‘+1 123 123 12 12’
-      card_number, card_code = ‘1234 5678 9100’, ‘111’
-      message_for_driver = ‘Traiga un postre’
-      cantidad_de_helados = ‘2’
+    *  address_from = ‘East 2nd Street, 601’
+    *  address_to = ‘1300 1st St’
+    *  phone_number = ‘+1 123 123 12 12’
+    *  card_number, card_code = ‘1234 5678 9100’, ‘111’
+    *  message_for_driver = ‘Traiga un postre’
+    *  cantidad_de_helados = ‘2’
+      
 
 #### main.py
   * -En este archivo se encuentran las pruebas para comprobar la funcionalidad de Urban Routes.
@@ -108,15 +111,16 @@ fadrimir
   * -Se uso PyCharm, se programo en dispositivo personal, proyecto en PyCharm
   * -Se han importado paquetes. Se uso Selenium WebDriver 4.30.0, es un controlador de navegador, que emula las acciones de usuario.
   * Para usar los comandos de Selenium, se tuvo que importar el paquete Selenium WebDriver:
-from selenium import webdriver
-Selenium es capaz de emular la mayoría de las acciones de usuario en el navegador:
-Hacer clicks, rellenar campos de entrada, abrir URL, etc.
--Se importo la clase By, esta clase ayuda a especificar los criterios de búsqueda de los elementos. Para usar los métodos de la clase By, se usa: from selenium.webdriver.common.by import By
--Se importo la clase WebdriverWait, las esperas explícitas detienen la prueba durante un período de tiempo exacto: from selenium.webdriver.support.wait import WebDriverWait
--Para personalizar las esperas, se establece una condición utilizando la clase expected_conditions. Estas son las condiciones más utilizadas:
-element_to_be_clickable : se puede hacer clic en el elemento.
-presence_of_element_located : el elemento está presente en la página.
-visibility_of_element_located : el elemento está presente en la página y es visible.
--Se instalo los paquetes Pytest 8.3.5 para ejecutar las pruebas.
--Se uso el Git, el sistema de control de versiones. El proyecto en GitHub.
--Se uso para el archivo README.md , el link: https://dillinger.io/ - README es un archivo de texto markdown con formato md. Markdown es similar a HTML: todos los encabezados, párrafos e hipervínculos tienen una forma de indicarse, solo que con símbolos especiales en lugar de etiquetas.
+  * from selenium import webdriver
+  * Selenium es capaz de emular la mayoría de las acciones de usuario en el navegador:
+  * Hacer clicks, rellenar campos de entrada, abrir URL, etc.
+  * Se importo la clase By, esta clase ayuda a especificar los criterios de búsqueda de los elementos. Para usar los métodos de la clase By, se usa: from selenium.webdriver.common.by import By
+  * -Se importo la clase WebdriverWait, las esperas explícitas detienen la prueba durante un período de tiempo exacto: from selenium.webdriver.support.wait import WebDriverWait
+  * -Para personalizar las esperas, se establece una condición utilizando la clase expected_conditions. Estas son las condiciones más utilizadas:
+        * element_to_be_clickable : se puede hacer clic en el elemento.
+        * presence_of_element_located : el elemento está presente en la página.
+        * visibility_of_element_located : el elemento está presente en la página y es visible.
+  * -Se instalo los paquetes Pytest 8.3.5 para ejecutar las pruebas.
+  * -Se uso el Git, el sistema de control de versiones. El proyecto en GitHub.
+  * -Se uso para el archivo README.md , el link: https://dillinger.io/
+  * - README es un archivo de texto markdown con formato md. Markdown es similar a HTML: todos los encabezados, párrafos e hipervínculos tienen una forma de indicarse, solo que con símbolos especiales en lugar de etiquetas.
