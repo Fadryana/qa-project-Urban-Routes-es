@@ -18,8 +18,6 @@ fadrimir
 ---
 # DESCRIPCION DEL PROYECTO:
 
-## 
-
   -  ✔ Se está comprobando cómo la aplicación URBAN ROUTES funciona para pedir un taxi.
   -  ✔ Se han realizado varias pruebas para comprobar la funcionalidad de URBAN ROUTES.
   -  ✔ Se han definido los localizadores en la clase UrbanRoutesPage.
@@ -90,7 +88,11 @@ fadrimir
 ---
 
 #### utilitarios.py
-  * -En este archivo utilitarios.py se encuentra el código que devuelve un número de confirmación de teléfono y lo devuelve como un string. Se utiliza cuando la aplicación espera el código de confirmación. Este código se usa para las pruebas. El código de confirmación del teléfono solo se puede obtener después de haberlo solicitado en la aplicación. El repositorio tiene preparada la función retrieve_phone_code() que intercepta el código de confirmación requerido para agregar una tarjeta.
+  * -En este archivo utilitarios.py se encuentra el código que devuelve un número de confirmación de teléfono y lo devuelve como un string.
+  * Se utiliza cuando la aplicación espera el código de confirmación.
+  * Este código se usa para las pruebas.
+  * El código de confirmación del teléfono solo se puede obtener después de haberlo solicitado en la aplicación.
+  * El repositorio tiene preparada la función retrieve_phone_code() que intercepta el código de confirmación requerido para agregar una tarjeta.
 
 ---
 
@@ -101,22 +103,24 @@ fadrimir
 
 ### FUENTE DE DOCUMENTACION UTILIZADA :
   * Servidor - Dirección del banco:
-  * https://cnt-09bfdbca-8c1f-4bf1-bfe8-5ea5f4ac1edd.containerhub.tripleten-services.com?lng=es
-  * (esta es la URL de servidor para que tu código pueda acceder al servidor.)
+       https://cnt-09bfdbca-8c1f-4bf1-bfe8-5ea5f4ac1edd.containerhub.tripleten-services.com?lng=es
+           (esta es la URL de servidor para que tu código pueda acceder al servidor.)
 
 ---
 
 ### DESCRIPCION DE LAS TECNOLOGIAS Y TECNICAS UTILIZADAS :
-  * -Se uso Python 3.13 el lenguaje de programación de los testers.
-  * -Se uso PyCharm, se programo en dispositivo personal, proyecto en PyCharm
-  * -Se han importado paquetes. Se uso Selenium WebDriver 4.30.0, es un controlador de navegador, que emula las acciones de usuario.
+
+  * Se uso Python 3.13 el lenguaje de programación de los testers.
+  * Se uso PyCharm, se programo en dispositivo personal, proyecto en PyCharm
+  * Se han importado paquetes. Se uso Selenium WebDriver 4.30.0, es un controlador de navegador, que emula las acciones de usuario.
   * Para usar los comandos de Selenium, se tuvo que importar el paquete Selenium WebDriver:
   * from selenium import webdriver
   * Selenium es capaz de emular la mayoría de las acciones de usuario en el navegador:
   * Hacer clicks, rellenar campos de entrada, abrir URL, etc.
-  * Se importo la clase By, esta clase ayuda a especificar los criterios de búsqueda de los elementos. Para usar los métodos de la clase By, se usa: from selenium.webdriver.common.by import By
-  * -Se importo la clase WebdriverWait, las esperas explícitas detienen la prueba durante un período de tiempo exacto: from selenium.webdriver.support.wait import WebDriverWait
-  * -Para personalizar las esperas, se establece una condición utilizando la clase expected_conditions. Estas son las condiciones más utilizadas:
+  * Se importo la clase By, esta clase ayuda a especificar los criterios de búsqueda de los elementos.
+  * Para usar los métodos de la clase By, se usa: from selenium.webdriver.common.by import By
+  * Se importo la clase WebdriverWait, las esperas explícitas detienen la prueba durante un período de tiempo exacto: from selenium.webdriver.support.wait import WebDriverWait
+  * Para personalizar las esperas, se establece una condición utilizando la clase expected_conditions. Estas son las condiciones más utilizadas:
         * element_to_be_clickable : se puede hacer clic en el elemento.
         * presence_of_element_located : el elemento está presente en la página.
         * visibility_of_element_located : el elemento está presente en la página y es visible.
