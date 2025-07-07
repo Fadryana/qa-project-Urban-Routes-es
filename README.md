@@ -1,25 +1,25 @@
-ARCHIVO :
+### ARCHIVO :
 README.md
 
 ---
 # NOMBRE DEL PROYECTO :
-qa-project-Urban-Routes-es Soft Skills
+qa-project-Urban-Routes-es 
 
   
 ---
 
-# NOMBRE USUARIO :
+### NOMBRE USUARIO :
 fadrimir
 
 ---
-# COHORTE :
+### COHORTE :
 25
 
 ---
 # DESCRIPCION DEL PROYECTO:
 
 ---
-# 👫 Soft Skills
+## 
 
   -  ✔ Se está comprobando cómo la aplicación URBAN ROUTES funciona para pedir un taxi.
   -  ✔ Se han realizado varias pruebas para comprobar la funcionalidad de URBAN ROUTES.
@@ -48,18 +48,18 @@ fadrimir
 ---
 
 ### Detalle de cada archivo:
-data.py
--Se reemplaza la URL base con la URL de Urban Routes:
-https://cnt-b1112777-ad5c-4e43-b438-d38ee15d86e6.containerhub.tripleten-services.com?lng=es
--Los datos que se van a usar en las pruebas son los siguiente:
-address_from = ‘East 2nd Street, 601’
-address_to = ‘1300 1st St’
-phone_number = ‘+1 123 123 12 12’
-card_number, card_code = ‘1234 5678 9100’, ‘111’
-message_for_driver = ‘Traiga un postre’
-cantidad_de_helados = ‘2’
+#### data.py
+  - Se reemplaza la URL base con la URL de Urban Routes:
+      https://cnt-b1112777-ad5c-4e43-b438-d38ee15d86e6.containerhub.tripleten-services.com?lng=es
+  - Los datos que se van a usar en las pruebas son los siguiente:
+      address_from = ‘East 2nd Street, 601’
+      address_to = ‘1300 1st St’
+      phone_number = ‘+1 123 123 12 12’
+      card_number, card_code = ‘1234 5678 9100’, ‘111’
+      message_for_driver = ‘Traiga un postre’
+      cantidad_de_helados = ‘2’
 
-main.py
+#### main.py
 -En este archivo se encuentran las pruebas para comprobar la funcionalidad de Urban Routes.
 -Se definieron los localizadores en la clase UrbanRoutesPage - class UrbanRoutesPage
 -Se definieron los métodos en la clase UrbanRoutesPage - class UrbanRoutesPage
