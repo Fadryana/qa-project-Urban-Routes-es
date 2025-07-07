@@ -27,27 +27,27 @@ fadrimir
   -  ✔ Se han definido los métodos en la clase UrbanRoutesPage.
   -  ✔ Se han definido las pruebas en la clase TestUrbanRoutes.
   -  ✔ Se han escrito pruebas automatizadas del proceso completo de pedir un taxi. Las pruebas siguen estas acciones:
-  -  -  ✔
-     -  -  ✔
-        -  -  ✔
-           -  -  ✔ 
--Configurar la dirección.
--Seleccionar la tarifa Comfort.
--Rellenar el número de teléfono.
--Agregar una tarjeta de crédito.
--Escribir un mensaje para el controlador.
--Pedir una manta y pañuelos.
--Pedir 2 helados.
--Aparece el modal para buscar un taxi.
+  -  -  * Configurar la dirección.
+     -  * Seleccionar la tarifa Comfort.
+     -  * Rellenar el número de teléfono.
+     -  * Agregar una tarjeta de crédito.
+     -  * Escribir un mensaje para el controlador.
+     -  * Pedir una manta y pañuelos.
+     -  * Pedir 2 helados
+     -  * Aparece el modal para buscar un taxi.
 ---
 
--Se utilizo CINCO archivos en total:
-data
-main.py
-utilitarios.py
-readme.py
-.gitignore.
-Detalle de cada archivo:
+### Se utilizo CINCO archivos en total:
+
+  -  data
+  -  main.py
+  -  utilitarios.py
+  -  readme.py
+  -  .gitignore.
+
+---
+
+### Detalle de cada archivo:
 data.py
 -Se reemplaza la URL base con la URL de Urban Routes:
 https://cnt-b1112777-ad5c-4e43-b438-d38ee15d86e6.containerhub.tripleten-services.com?lng=es
