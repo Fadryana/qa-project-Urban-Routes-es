@@ -1,16 +1,21 @@
 ARCHIVO :
 README.md
 
+
 NOMBRE DEL PROYECTO :
 qa-project-Urban-Routes-es
+
 
 NOMBRE USUARIO :
 fadrimir
 
+
 COHORTE :
 25
 
+
 DESCRIPCION DEL PROYECTO:
+
 -Se está comprobando cómo la aplicación URBAN ROUTES funciona para pedir un taxi.
 -Se han realizado varias pruebas para comprobar la funcionalidad de URBAN ROUTES.
 -Se han definido los localizadores en la clase UrbanRoutesPage.
