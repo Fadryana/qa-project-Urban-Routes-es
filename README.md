@@ -18,12 +18,19 @@ fadrimir
 ---
 # DESCRIPCION DEL PROYECTO:
 
--Se está comprobando cómo la aplicación URBAN ROUTES funciona para pedir un taxi.
--Se han realizado varias pruebas para comprobar la funcionalidad de URBAN ROUTES.
--Se han definido los localizadores en la clase UrbanRoutesPage.
--Se han definido los métodos en la clase UrbanRoutesPage.
--Se han definido las pruebas en la clase TestUrbanRoutes.
--Se han escrito pruebas automatizadas del proceso completo de pedir un taxi. Las pruebas siguen estas acciones:
+---
+# 👫 Soft Skills
+
+  -  ✔ Se está comprobando cómo la aplicación URBAN ROUTES funciona para pedir un taxi.
+  -  ✔ Se han realizado varias pruebas para comprobar la funcionalidad de URBAN ROUTES.
+  -  ✔ Se han definido los localizadores en la clase UrbanRoutesPage.
+  -  ✔ Se han definido los métodos en la clase UrbanRoutesPage.
+  -  ✔ Se han definido las pruebas en la clase TestUrbanRoutes.
+  -  ✔ Se han escrito pruebas automatizadas del proceso completo de pedir un taxi. Las pruebas siguen estas acciones:
+  -  -  ✔
+     -  -  ✔
+        -  -  ✔
+           -  -  ✔ 
 -Configurar la dirección.
 -Seleccionar la tarifa Comfort.
 -Rellenar el número de teléfono.
@@ -32,6 +39,8 @@ fadrimir
 -Pedir una manta y pañuelos.
 -Pedir 2 helados.
 -Aparece el modal para buscar un taxi.
+---
+
 -Se utilizo CINCO archivos en total:
 data
 main.py
